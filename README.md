@@ -21,12 +21,6 @@ Start the server
   npm run start
 ```
   
-## Dependencies
-
- - [Material UI](https://material-ui.com/getting-started/installation/)
- - [Material-UI Icons](https://material-ui.com/components/icons/#icons)
-
- 
   
 ## Tech Stack
 
