@@ -25,7 +25,7 @@ export const signin = async (req,res) => {
       { expiresIn: "1h" }
     );
 
-    res.status(200).json({ result: existingUser, token });
+    res.status(200).json({  message: "Login Successful",result: existingUser, token });
   } catch (error  ) {
     res.status(500).json({ message: error });
 

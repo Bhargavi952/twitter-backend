@@ -3,6 +3,7 @@ import cors from "cors";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import userRoute from "./routes/user.js";
+import postRoute from './routes/post.js'
 
 const app = express();
 dotenv.config();
@@ -10,6 +11,7 @@ app.use(cors());
 app.use(json());
 
 app.use("/user", userRoute);
+app.use("/post",postRoute)
 
 const PORT = 9000;
 
